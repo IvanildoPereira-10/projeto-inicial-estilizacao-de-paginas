@@ -1,0 +1,162 @@
+/*RESET*/
+body, ul, li p{
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+	font-size: 100%; 
+	box-sizing: border-box; 
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+	background-image: linear-gradient(rgba(5, 11, 300, 0.4), rgba(212, 210, 216, 0));	
+
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+a:hover{
+	opacity: 1;
+	color: rgb(9, 160, 248);
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;	
+	background-color: #042331;
+}
+
+header img{
+	width: 300px;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+header nav{
+	display: flex;
+}
+
+header li a{
+	color: rgb(82, 3, 12);
+	font-size: 20px;
+	display: block;		
+}
+
+header li{
+	margin: 15px;
+	background-color: rgb(233, 199, 186);
+	opacity: 0.5;
+	border-radius: 2px;
+	padding: 0 5px;
+}
+
+
+/*@media(max-width: 700px) {
+	header{
+		flex-direction: column;
+	}
+}*/
+
+h1, h2, h3{
+	color: rgb(17, 18, 58);
+	padding: 8px;
+	margin: auto;
+	text-align: center;
+}
+
+main{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+main .item_1{
+	flex: 1;
+	min-width: 250px;
+}
+main .item_2{
+	flex: 1;
+	min-width: 250px;
+
+}
+
+section{
+	display: flex;
+	padding: 30px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+section .box1{
+	flex: 1;
+	margin: 10px;
+}
+
+section .box2{
+	flex: 1;
+	margin: 10px;
+}
+
+section .box3{
+	flex: 1;
+	margin: 10px;
+}
+
+section .box4{
+	flex: 1;
+	margin: 10px;
+}
+
+section img{
+	display: block;
+	width: 300px;
+	height: 250px;
+}
+
+.form{
+	padding: 20px;
+}
+
+form label{
+	font-size: 20px;
+	font-weight: bold;
+}
+form button{
+	color: #F8F8FF;
+	background-color: blue;
+	height: 30px;
+	font-weight: 60px;
+	padding: 7px;
+	border-radius: 4px;
+}
+footer{
+	display: flex;
+	height: 100px;
+	background-color: #a6a4a7;
+	color: gold;
+	padding: 10px;
+}
+
+address{
+	flex: 1;
+	padding: 20px;
+}
+address a{
+	padding: 15px;
+	color: indianred;
+}
+footer p{
+	color: rgb(50, 11, 194);
+	padding: 30px;
+	margin: 10px;
+	font-size: 20px;
+}
+		
